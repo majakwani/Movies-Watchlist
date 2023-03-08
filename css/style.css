@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    width: 100vw; height: 100vh;
+}
+
+body{
+    width: 100%; height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 550px;
+    height: 780px;
+    background-color: #121212;
+    position: relative;
+}
+
+.background{
+    width: 100%;
+    height: 208px;
+    background: url('../images/image\ 36.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    width: 360px;
+    height: 48px;
+    font-weight: 800;
+    font-size: 42.7947px;
+    letter-spacing: -0.045em;
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+    width: 114px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    line-height: 35px;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    left: 44px;
+    top: 189px;
+    width: 462px;
+    height: 38px;
+    background-color: #2E2E2F;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+input#search {
+    background-image: url('../images/Icon.png');
+    background-repeat: no-repeat;
+    background-position: 15px center ;
+    text-indent: 35px;
+    padding: 9px 13px;
+    gap: 8px;
+    width: 342px;
+    height: 38px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A5A5A5;
+    background-color: transparent;
+}
+
+button{
+    padding: 9px 11px 9px 17px;
+    width: 115px;
+    height: 38px;
+    background-color: #484B4B;
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #484b4bb6;
+}
+
+#movies-list{
+    height: 572px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp > img{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.temp{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #2E2E2F;
+}
