@@ -33,7 +33,7 @@ button {
   height: 780px;
   background-color: #121212;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .background {
@@ -114,10 +114,6 @@ input#search {
   min-height: 572px;
   width: 100%;
   background-color: black;
-}
-
-#movies-list{
-    overflow-y: scroll;
 }
 
 .temp > img {
