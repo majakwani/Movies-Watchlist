@@ -6,8 +6,7 @@
 }
 
 html {
-  width: 100vw;
-  height: 100vh;
+  width: 100vw; height: 100vh;
 }
 
 body {
@@ -16,10 +15,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-button {
-  cursor: pointer;
 }
 
 .flex {
@@ -31,9 +26,13 @@ button {
 .container {
   width: 550px;
   height: 780px;
-  background-color: #121212;
+  background-color: black;
   position: relative;
   overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
 }
 
 .background {
@@ -134,8 +133,7 @@ input#search {
   height: 150px;
   margin-inline: 44px;
   margin-block: 40px;
-  /* margin: 25px 44px 20px 44px; */
-} 
+}
 
 .image-div {
   width: 99px;
